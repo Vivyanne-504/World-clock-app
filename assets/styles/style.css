@@ -52,7 +52,6 @@ and (max-device-width : 480px)
         color: #000000
     }
         .card{
-            height: 200px;
             top: 200px;
             left: 10px;
             right: 10px;
@@ -65,11 +64,9 @@ and (max-device-width : 480px)
     and (-webkit-min-device-pixel-ratio: 2) {
 
     .card{
-        height: 200px;
         top: 200px;
         left: 75px;
         margin-top: 400px auto;
-        
         align-self: center;
         background-color: transparent;
         height: fit-content;
